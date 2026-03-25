@@ -31,6 +31,16 @@
   }
 }
 
+/* Text selection on dark/blue backgrounds */
+.selection-on-dark ::selection {
+  background-color: rgba(255, 255, 255, 0.35);
+  color: #fff;
+}
+.selection-on-dark ::-moz-selection {
+  background-color: rgba(255, 255, 255, 0.35);
+  color: #fff;
+}
+
 /* Accessibility: Panel open - prevent scroll */
 body.panel-open {
   position: fixed;
