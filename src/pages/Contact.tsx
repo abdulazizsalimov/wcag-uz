@@ -18,7 +18,7 @@ export default function Contact() {
   return (
     <div>
       {/* Hero */}
-      <section className="bg-gradient-to-br from-cyan-600 via-blue-700 to-indigo-800 dark:from-cyan-900 dark:via-gray-900 dark:to-gray-900 text-white py-16 sm:py-20">
+      <section className="bg-gradient-to-br from-cyan-600 via-blue-700 to-indigo-800 dark:from-cyan-900 dark:via-gray-900 dark:to-gray-900 text-white py-16 sm:py-20 selection-on-dark">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight mb-4">
