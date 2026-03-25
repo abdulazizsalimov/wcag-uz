@@ -316,8 +316,18 @@ export default function AccessibilityWidget({ open, onOpenChange }: Accessibilit
     localStorage.setItem('accessibility-magnifier-font-size', size);
   };
 
-  // Apply saved settings on mount
+  // Apply saved settings on mount (including theme)
   useEffect(() => {
+    // Apply theme from localStorage on mount
+    const root = document.documentElement;
+    const effectiveTheme = getActualTheme();
+    if (effectiveTheme === 'dark') {
+      root.classList.add('dark');
+    } else {
+      root.classList.remove('dark');
+    }
+    setActualTheme(effectiveTheme);
+
     applyFontSize(fontSize);
     applyLineHeight(lineHeight);
     applyLetterSpacing(letterSpacing);
