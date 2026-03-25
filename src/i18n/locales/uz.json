@@ -1,0 +1,1008 @@
+{
+  "site": {
+    "title": "WCAG.uz",
+    "subtitle": "Raqamli erishiluvchanlik markazi",
+    "description": "O'zbekiston uchun raqamli erishiluvchanlik bo'yicha yo'riqnoma va standartlar"
+  },
+  "nav": {
+    "home": "Bosh sahifa",
+    "designers": "Dizaynerlar uchun",
+    "developers": "Dasturchilar uchun",
+    "contentManagers": "Kontent menejerlar uchun",
+    "resources": "Resurslar",
+    "blog": "Blog",
+    "contact": "Aloqa",
+    "skipToContent": "Asosiy kontentga o'tish",
+    "openMenu": "Menyuni ochish",
+    "closeMenu": "Menyuni yopish"
+  },
+  "theme": {
+    "light": "Yorug' rejim",
+    "dark": "Qorong'u rejim",
+    "toggle": "Mavzuni almashtirish"
+  },
+  "language": {
+    "uz": "O'zbekcha",
+    "ru": "Ruscha",
+    "switch": "Tilni almashtirish"
+  },
+  "home": {
+    "hero": {
+      "title": "Raqamli erishiluvchanlik — hamma uchun teng imkoniyatlar",
+      "subtitle": "WCAG.uz — bu W3C tomonidan ishlab chiqilgan veb-kontentning erishiluvchanligi bo'yicha tavsiyalarini (WCAG) tushunish va amaliyotga tatbiq etish, veb-saytlar erishiluvchanligini oshirish hamda foydalanuvchi tajribasini yaxshilash uchun mo'ljallangan ishonchli onlayn resursdir.",
+      "cta": "Boshlash"
+    },
+    "sections": {
+      "whatIs": {
+        "title": "Raqamli erishiluvchanlik nima?",
+        "description": "Raqamli erishiluvchanlik (accessibility) — bu veb-saytlar, mobil ilovalar va boshqa raqamli texnologiyalarni nogironligi bo'lgan odamlar, shu jumladan ko'rish, eshitish, harakat va kognitiv qiyinchiliklarga ega bo'lgan foydalanuvchilar uchun qulay va foydalanish mumkin qilish jarayonidir.",
+        "points": [
+          "Ko'rish qobiliyati cheklangan foydalanuvchilar uchun ekran o'quvchilari bilan moslik",
+          "Motor qobiliyati cheklangan foydalanuvchilar uchun klaviatura navigatsiyasi",
+          "Eshitish qobiliyati cheklangan foydalanuvchilar uchun video subtitrlar",
+          "Kognitiv qiyinchiliklarga ega foydalanuvchilar uchun sodda va tushunarli interfeys"
+        ]
+      },
+      "wcag": {
+        "title": "WCAG bu nima?",
+        "subtitle": "Web kontent erishiluvchanligi bo'yicha yo'riqnomalar (WCAG 2.1)",
+        "description": "WCAG – Web-kontent erishiluvchanligi bo'yicha yo'riqnomalar – \"dunyo o'rgimchak to'ri\" konsersiumi (W3C) tomonidan ishlab chiqilgan tavsiyalar to'plami bo'lib, raqamli dunyoni imkoniyati cheklangan (nogironligi bo'lgan) shaxslar uchun qulay va to'siqsiz qilishga xizmat qiluvchi texnik standartdir. Raqamli erishiluvchanlikning universal standarti hisoblangan ushbu tavsiyalarni yaratishda ko'plab manfaatdor tomonlar, jumladan, nogironlar huquqlarini himoya qilish guruhlari, davlat idoralari hamda erishiluvchanlik sohasidagi tadqiqotlar bilan shug'ullanuvchi tashkilotlar ishtirok etgan.",
+                "lawNote": "Shuni ta'kidlash joizki, WCAG qonun hisoblanmaydi, biroq O'zbekiston respublikasining \"nogironligi bo'lgan shaxslarning huquqlari\" to'g'risidagi ORQ №641 qonun talablariga muvofiq bo'lishni istagan tashkilotlar WCAG standartlariga amal qilishlari shart.",
+                "ctaInternal": "WCAG yo'riqnomasini o'qish",
+                "ctaExternal": "W3C rasmiy saytida o'qish",
+                "pourTitle": "POUR — erishiluvchanlikning 4 tamoyili",
+        "pourDescription": "WCAG tavsiyalari quyidagi 4 ta tamoyilga asoslangan bo'lib, ular:",
+        "pourNote": "POUR — ushbu 4 tamoyilning asl inglizcha nomlaridan: Perceivable, Operable, Understandable va Robust hosil bo'lgan qisqartmadir.",
+        "principles": [
+          {
+            "title": "Idrok qilinuvchanlik (Perceivable)",
+            "description": "Kontent va u bilan bog'liq axborot faqat bitta sezgi organidan foydalanuvchi shaxslar tomonidan ham idrok qilina olishi kerak."
+          },
+          {
+            "title": "Boshqariluvchanlik (Operable)",
+            "description": "Yakuniy foydalanuvchilar veb-sahifaning barcha elementlari bilan o'zaro aloqa qilish imkoniyatiga ega bo'lishlari kerak. Masalan, sichqonchadan foydalanmaydigan foydalanuvchilar uchun veb-saytingiz klaviatura yoki ovozli boshqaruv yordamida oson erishiluvchan bo'lishi lozim."
+          },
+          {
+            "title": "Tushunarlilik (Understandable)",
+            "description": "Yakuniy foydalanuvchilar veb-sahifa mazmuni va unda taqdim etilgan funksional imkoniyatlarni tushuna olishlari kerak."
+          },
+          {
+            "title": "Bardoshlilik (Robust)",
+            "description": "Web sayt axborotni barcha foydalanuvchilarga, jumladan, yordamchi texnologiyalardan (ekran suxandonlari, matnni kattalashtiruvchi dasturlar, brayl displeylari va hokazo) foydalanuvchilarga samarali yetkazib bera olishi, shuningdek rivojlanayotgan texnologiyalarni qo'llab-quvvatlashi va foydalanuvchilar ehtiyojlaridan kelib chiqib, ularga moslasha olishi lozim."
+          }
+        ],
+        "versionsTitle": "WCAG versiyalari: 1.0, 2.0, 2.1, 2.2",
+        "versionsDescription": "Texnologiyalarning rivojlanishi, loyihalash usullari hamda dizaynning murakkablashishi sababli raqamli erishiluvchanlik sohasi ham tinimsiz takomillashib bormoqda. Shuning uchun ham W3C WCAG tavsiyalarini muntazam ravishda yangilab boradi.",
+        "versions": [
+          {
+            "name": "WCAG 1.0",
+            "year": "1999",
+            "description": "1999-yil may oyida e'lon qilingan WCAG 1.0 standarti 14 ta asosiy yo'riqnoma hamda A, AA va AAA muvofiqlik darajalari iyerarxiyasini o'z ichiga olgan edi."
+          },
+          {
+            "name": "WCAG 2.0",
+            "year": "2008",
+            "description": "2008-yilda chop etilgan WCAG 2.0 standartida ilk bor POUR konsepsiyasi joriy etildi va A, AA hamda AAA muvofiqlik darajalari qaytadan belgilab berildi."
+          },
+          {
+            "name": "WCAG 2.1",
+            "year": "2018",
+            "description": "WCAG 2.1 standarti 2018-yilda WCAG 2.0 dan keyingi davrda raqamli kontent sohasida erishilgan yutuqlarni aks ettiruvchi yangilangan formatda taqdim etildi. Unda mobil qurilmalar va planshetlar uchun erishiluvchanlik masalalariga alohida urg'u berildi. 17 ta qo'shimcha muvaffaqiyat meyoni kiritildi."
+          },
+          {
+            "name": "WCAG 2.2",
+            "year": "2023",
+            "description": "WCAG 2.2 standarti esa yana 9 ta yangi muvaffaqiyat mezoni bilan boyitildi. Ularning aksariyati ko'rish, tayanch-harakat, eshitish va kognitiv imkoniyati cheklangan foydalanuvchilar duch keladigan to'siqlarni bartaraf etishga qaratilgan."
+          }
+        ],
+        "levelsTitle": "WCAG muvofiqlik darajalari: A, AA va AAA",
+        "levelsDescription": "WCAG tavsiyalariga muvofiqlikning uchta darajasi mavjud:",
+        "levels": [
+          {
+            "level": "A",
+            "name": "Minimal daraja",
+            "description": "Har qanday veb-sayt javob berishi shart bo'lgan minimal talablar darajasi.",
+            "requirements": [
+              "Kontentdan faqat klaviatura yordamida foydalanish imkoniyati",
+              "Foydalanuvchilar nima to'ldirish kerakligini bilishlari uchun ko'rsatmalarga ega aniq belgilangan shakllar",
+              "Kontent yordamchi texnologiyalarni to'g'ri qo'llab-quvvatlashi",
+              "Aniq ma'lumot yoki ko'rsatmalarni nafaqat shakl, o'lcham yoki rang, balki boshqa usullar bilan ham taqdim etish"
+            ]
+          },
+          {
+            "level": "AA",
+            "name": "O'rtacha daraja",
+            "description": "Yuqori darajadagi erishiluvchanlikni anglatuvchi o'rtacha muvofiqlik darajasi. U A va AA darajalarining barcha mezonlariga javob beradi.",
+            "requirements": [
+              "Matn va fon tegishli rang kontrastiga ega bo'lishi kerak (kamida 4,5 ga 1)",
+              "Kontent aniq sarlavhalar tuzilishiga ega bo'lishi va mantiqiy tartibda bo'lishi kerak (masalan, H1, H2, H3)",
+              "Navigatsiya elementlari har bir veb-sahifada bir xil bo'lishi lozim"
+            ]
+          },
+          {
+            "level": "AAA",
+            "name": "Eng yuqori daraja",
+            "description": "Alohida darajadagi erishiluvchanlikni ta'minlovchi eng yuqori muvofiqlik darajasi, biroq u muayyan kontent turlari uchun erishib bo'lmaydigan bo'lishi mumkin. U A, AA va yana 28 ta qo'shimcha mezonga javob beradi.",
+            "requirements": [
+              "Matn va fon kontrastining minimal nisbati — 7 ga 1",
+              "Oldindan yozib olingan video-kontent uchun imo-ishora tili tarjimasi",
+              "Oldindan yozib olingan video-kontent uchun kengaytirilgan audio-tavsiflar"
+            ]
+          }
+        ],
+        "assessmentTitle": "WCAG muvaffaqiyat mezonlari asosida erishiluvchanlikni baholash",
+        "assessmentDescription": "Ko'plab bepul vositalar veb-saytingizdagi kontent WCAG standartlariga muvofiqligini tekshirishga yordam beradi. Masalan, WAVE vositasi — shunchaki URL-manzilingizni kiritsangiz, ushbu sahifadagi xatolar haqida umumiy hisobot olasiz. Yana bir misol — IBM Equal Access Accessibility Checker bo'lib, u Chrome va Firefox brauzerlarida sahifa darajasida test o'tkazish imkonini beradi.",
+        "assessmentNote": "Biroq, shuni tushunish muhimki, ushbu vositalar faqat avtomatlashtirilgan testlarga tayanadi va barcha xatolarni ham aniqlay olmaydi. Raqamli resurslaringizning qulayligi va erishiluvchanligini har tomonlama baholash uchun inson tomonidan test o'tkazilishi zarur."
+      },
+      "standards": {
+        "title": "WCAG standartlariga muvofiqlik",
+        "description": "WCAG (Web Content Accessibility Guidelines) — bu veb-kontent erishiluvchanligini ta'minlash uchun xalqaro standartlar to'plami. Ushbu standartlar to'rtta asosiy tamoyilga asoslangan:",
+        "principles": [
+          {
+            "title": "Sezish mumkin (Perceivable)",
+            "description": "Ma'lumot va interfeys komponentlari foydalanuvchilarga sezish mumkin bo'lgan tarzda taqdim etilishi kerak."
+          },
+          {
+            "title": "Boshqarish mumkin (Operable)",
+            "description": "Interfeys komponentlari va navigatsiya boshqarish mumkin bo'lishi kerak."
+          },
+          {
+            "title": "Tushunarli (Understandable)",
+            "description": "Ma'lumot va interfeys operatsiyalari tushunarli bo'lishi kerak."
+          },
+          {
+            "title": "Mustahkam (Robust)",
+            "description": "Kontent turli xil foydalanuvchi agentlari, shu jumladan yordamchi texnologiyalar tomonidan ishonchli talqin qilinishi kerak."
+          }
+        ]
+      },
+      "forWhom": {
+        "title": "Kim uchun?",
+        "cards": [
+          {
+            "title": "Dizaynerlar uchun",
+            "description": "Erishiluvchan dizayn yaratish bo'yicha yo'riqnomalar: rang kontrastlari, shrift o'lchamlari, interaktiv elementlar va boshqalar.",
+            "link": "Batafsil"
+          },
+          {
+            "title": "Dasturchilar uchun",
+            "description": "Kod yozishda erishiluvchanlikni ta'minlash: semantik HTML, ARIA atributlari, klaviatura navigatsiyasi va boshqalar.",
+            "link": "Batafsil"
+          },
+          {
+            "title": "Kontent menejerlar uchun",
+            "description": "Erishiluvchan kontent yaratish: rasm tavsiflari, video subtitrlar, oddiy til va boshqalar.",
+            "link": "Batafsil"
+          }
+        ]
+      }
+    },
+    "stats": {
+      "title": "Erishiluvchanlik raqamlarda",
+      "items": [
+        { "number": "1 milliard+", "label": "Dunyoda nogironligi bor odamlar" },
+        { "number": "96%", "label": "Veb-saytlarda erishiluvchanlik xatolari mavjud" },
+        { "number": "71%", "label": "Nogironligi bor foydalanuvchilar noqulay saytlarni tark etadi" },
+        { "number": "4x", "label": "Erishiluvchan saytlarda foydalanuvchi tajribasi yaxshiroq" }
+      ]
+    }
+  },
+  "designers": {
+    "hero": {
+      "title": "Erishiluvchanlikni hisobga olgan holda loyihalash",
+      "subtitle": "Veb-saytning erishiluvchanligi erishiluvchan dizayndan boshlanadi. Rangdan foydalanish usuli va vaqti, ranglar kontrasti, havolalar uslubi hamda kontentning tuzilishi kabi omillar foydalanuvchining sayt bo'ylab harakatlanishi qanchalik oson kechishiga ta'sir qiladi. Bu, ayniqsa, faqat klaviatura navigatsiyasidan yoki skrinriderlar (ekran o'quvchi dasturlar) kabi yordamchi texnologiyalardan foydalanuvchi insonlar uchun juda muhimdir."
+    },
+    "intro": "Ko'pgina WCAG mezonlari erishiluvchan dizaynga taalluqlidir. Quyida dizaynning veb-saytingiz va boshqa raqamli resurslaringiz erishiluvchanligiga sezilarli ta'sir ko'rsatishi mumkin bo'lgan 6 ta eng keng tarqalgan jihati keltirilgan.",
+    "cards": [
+      {
+        "title": "Ranglar kontrasti yetarli ekanligiga ishonch hosil qiling",
+        "description": "Veb-dizaynerlar past kontrast sahifadagi matnni o'qishni sezilarli darajada qiyinlashtirishini tushunadilar. Matn mayda yoki shrift juda ingichka bo'lsa, o'qish yanada mushkullashadi. Agarda ko'rish qobiliyati zaif bo'lsa, yetarsiz kontrast veb-sahifadagi so'zlarni farqlashni deyarli imkonsiz qilib qo'yishi mumkin.",
+        "criterion": "WCAG 1.4.3 muvaffaqiyat mezoni",
+        "criterionUrl": "https://www.w3.org/TR/WCAG22/#contrast-minimum"
+      },
+      {
+        "title": "Havolalar uchun tushunarli matn yozing",
+        "description": "Havolalar vizual jihatdan aniq, tavsiflovchi, lo'nda va takrorlanmas bo'lishi kerak. Hech qachon \"bu yerga bosing\" iborasini yoki uning variantlarini ishlatmang. Havola matni sayt tashrif buyuruvchisiga havolaga o'tganda nima ko'rishini ma'lum qilishi lozim. Shuningdek, havola matnida \"havola\" so'zini ishlatish shart emas. Skrinriderlar foydalanuvchiga u havola ustida turganligi haqida xabar beradi.",
+        "criterion": "WCAG 2.4.4 muvaffaqiyat mezoni",
+        "criterionUrl": "https://www.w3.org/TR/WCAG22/#link-purpose-in-context"
+      },
+      {
+        "title": "Aniq ko'rsatma beruvchi sarlavha va belgilarni ishlab chiqing",
+        "description": "Erishiluvchanlikni ta'minlash uchun ichma-ich joylashgan sarlavhalar tuzilmasiga ega mantiqiy dizayn o'ta muhimdir. Tavsiflovchi sarlavhalar foydalanuvchilarga aniq kontentni topishga, veb-sahifa va umuman sayt bo'ylab yo'nalish olishga yordam beradi. Vizual sarlavhalar kontent tuzilishini aks ettiradi va ulardan keyin keladigan ma'lumotni tavsiflaydi.",
+        "criterion": "WCAG 2.4.6 muvaffaqiyat mezoni",
+        "criterionUrl": "https://www.w3.org/TR/WCAG22/#headings-and-labels"
+      },
+      {
+        "title": "Barcha matnsiz kontent uchun alt atributidan foydalaning",
+        "description": "Dizaynerlar tasvirlar, grafika va boshqa matnsiz ma'lumotlar ularning ma'nosini aniq va qisqa tavsiflovchi muqobil matnli tavsifga (alt text) ega bo'lishini nazorat qiladilar. Muqobil matn, shuningdek, skrinriderlarga dekorativ xarakterga ega va hech qanday ma'no yuklamaydigan tasvirlarni e'tiborsiz qoldirish imkonini beradi.",
+        "criterion": "WCAG 1.1.1 muvaffaqiyat mezoni",
+        "criterionUrl": "https://www.w3.org/TR/WCAG22/#non-text-content"
+      },
+      {
+        "title": "Vkladkalar mantiqiy ketma-ketlikda aks etishiga ishonch hosil qiling",
+        "description": "O'qish tartibi mantiqiy va intuitiv tushunarli, aniq fokus ko'rsatkichlariga ega bo'lishi kerak. Harakatlanish imkoniyati cheklangan, faqat klaviaturadan foydalanuvchi insonlar uchun mantiqiy va qulay fokus tartibi juda foydalidir. O'qish tartibi yordamchi texnologiyalardan, masalan, ekranni kattalashtiruvchi lupalardan foydalanuvchilar uchun ham qulayroqdir, chunki fokus tartibi mantiqsiz bo'lsa, ular ma'lumotni noto'g'ri talqin qilishlari mumkin.",
+        "criterion": "WCAG 2.4.3 muvaffaqiyat mezoni",
+        "criterionUrl": "https://www.w3.org/TR/WCAG22/#focus-order"
+      },
+      {
+        "title": "Kiritish xatolarini tuzatish usulini taqdim eting",
+        "description": "Sayt tashrif buyuruvchilari ma'lumot kiritishda yo'l qo'yilgan xatolar bo'yicha qayta aloqadan foyda oladilar. Onlayn shakllarni to'ldirish ko'pincha xatolarga olib keladi, shuning uchun foydalanuvchilarni yo'l qo'yilgan xatolar va ularni qanday tuzatish haqida xabardor qilish usullarini ishlab chiqish o'ta muhimdir.",
+        "criterion": "WCAG 3.3.3 muvaffaqiyat mezoni",
+        "criterionUrl": "https://www.w3.org/TR/WCAG22/#error-suggestion"
+      }
+    ],
+    "additionalTitle": "Dizaynerlar uchun qo'shimcha WCAG muvaffaqiyat mezonlari",
+    "additionalCriteria": [
+      {
+        "code": "3.2.6",
+        "level": "A",
+        "title": "Doimiy yordam",
+        "description": "Veb-erishiluvchanlik olamida izchillik asosiy ahamiyatga ega. Inkluziv tajribani ta'minlash uchun veb-saytlar izchil va oldindan taxmin qilinadigan tarzda loyihalanishi kerak — va bu foydalanuvchiga yordam beruvchi kontakt ma'lumotlari, o'ziyurar chatlar yoki qidiruv tizimi kabi elementlarning har bir sahifada bir xil joyda bo'lishini anglatadi.",
+        "url": "https://www.w3.org/TR/WCAG22/#consistent-help"
+      },
+      {
+        "code": "2.4.13",
+        "level": "AAA",
+        "title": "Fokus ko'rinishi",
+        "description": "Fokus indikatorlarining erishiluvchanligini ta'minlash. Hamma foydalanuvchilar ham veb-saytlar bo'ylab sichqoncha yordamida harakatlanmaydi. Ko'pgina insonlar, jumladan, skrinriderlardan foydalanuvchilar yoki motorika bilan bog'liq muammolari borlar klaviaturadan foydalanishadi. Shu sababli, fokuslangan element atrofidagi ramka yetarli darajada qalin va fon bilan yuqori kontrastda bo'lishi shart.",
+        "url": "https://www.w3.org/TR/WCAG22/#focus-appearance"
+      },
+      {
+        "code": "1.4.12",
+        "level": "AA",
+        "title": "Matn oralig'idagi masofa",
+        "description": "Foydalanuvchi qatorlar, so'zlar yoki harflar orasidagi masofani o'z ehtiyojiga ko'ra o'zgartirganda, kontent bir-birining ustiga chiqib ketmasligi yoki funksionallik yo'qolishi yuz bermasligi kerak. Bu disleksiya yoki ko'rishda nuqsoni bor shaxslarga matnni qulayroq o'qish imkonini beradi.",
+        "url": "https://www.w3.org/TR/WCAG22/#text-spacing"
+      },
+      {
+        "code": "1.4.11",
+        "level": "AA",
+        "title": "Matn bo'lmagan elementlar kontrasti",
+        "description": "Foydalanuvchi interfeysi komponentlari (tugmalar, inputlar), ularning holatlari (hover, focus) va muhim ma'lumotni yetkazuvchi grafik ob'ektlar uchun ranglar kontrasti koeffitsienti kamida 3:1 bo'lishini ta'minlang. Bu elementlarning fon bilan aralashib ketmasligini kafolatlaydi.",
+        "url": "https://www.w3.org/TR/WCAG22/#non-text-contrast"
+      },
+      {
+        "code": "1.4.10",
+        "level": "AA",
+        "title": "Kontentning moslashuvchanligi (Reflow)",
+        "description": "Mobil qurilmalarda yoki brauzer yaqinlashtirilganda (320 piksel kenglikda) kontent yoki funksionallik yo'qolishi yuz bermasligi kerak. Ikki yo'nalishda (ham gorizontal, ham vertikal) aylantirish talab qilinmasligi lozim, ya'ni matn avtomatik ravishda pastga tushib, ekranga moslashishi kerak.",
+        "url": "https://www.w3.org/TR/WCAG22/#reflow"
+      },
+      {
+        "code": "1.3.4",
+        "level": "AA",
+        "title": "Orientatsiya",
+        "description": "Kontent foydalanuvchi uchun eng qulay bo'lgan orientatsiyada (portret yoki albom ko'rinishida) aks etishi kerak. Sayt foydalanuvchini qurilmani ma'lum bir tomonga burishga majburlamasligi lozim, chunki bu nogironlar aravachasiga o'rnatilgan planshetlar uchun imkonsiz bo'lishi mumkin.",
+        "url": "https://www.w3.org/TR/WCAG22/#orientation"
+      },
+      {
+        "code": "3.3.4",
+        "level": "AA",
+        "title": "Xatolarning oldini olish — huquqiy, moliyaviy va ma'lumotlarga oid",
+        "description": "Foydalanuvchilarga jiddiy oqibatlarga olib kelishi mumkin bo'lgan amallarni (masalan, pul o'tkazish yoki shaxsiy ma'lumotlarni o'chirish) bajarishdan oldin ularni qayta tekshirish, bekor qilish yoki tasdiqlash uchun yetarli imkoniyat bering.",
+        "url": "https://www.w3.org/TR/WCAG22/#error-prevention-legal-financial-data"
+      },
+      {
+        "code": "3.3.3",
+        "level": "AA",
+        "title": "Xato bo'yicha maslahat",
+        "description": "Agar kiritish xatosi avtomatik ravishda aniqlansa, tizim foydalanuvchiga shunchaki \"xato\" deb aytmasdan, uni tuzatish bo'yicha aniq tavsiya (masalan, \"sana formati kun-oy-yil bo'lishi kerak\") berishi lozim.",
+        "url": "https://www.w3.org/TR/WCAG22/#error-suggestion"
+      },
+      {
+        "code": "3.2.3",
+        "level": "AA",
+        "title": "Izchil navigatsiya",
+        "description": "Butun sayt davomida navigatsiya menyusi bandlarining joylashuvi va tartibini bir xil saqlang. Bu foydalanuvchiga saytning tuzilishini tezroq o'rganishga va kerakli bo'limni har doim bir xil joydan topishga yordam beradi.",
+        "url": "https://www.w3.org/TR/WCAG22/#consistent-navigation"
+      },
+      {
+        "code": "3.2.1",
+        "level": "A",
+        "title": "Fokusda",
+        "description": "Veb-saytda biron bir element shunchaki fokus olganligi (masalan, kursorni ustiga olib kelish yoki Tab tugmasini bosish) sababli yangi oyna ochilishi yoki sahifa yangilanishi kabi kutilmagan o'zgarishlar yuz bermasligi kerak.",
+        "url": "https://www.w3.org/TR/WCAG22/#on-focus"
+      },
+      {
+        "code": "2.4.5",
+        "level": "AA",
+        "title": "Bir necha usul",
+        "description": "Saytingizda kerakli veb-sahifani topishning kamida ikkita usuli bo'lishi kerak (masalan, asosiy menyu orqali va saytdan qidirish yoki sayt xaritasi orqali).",
+        "url": "https://www.w3.org/TR/WCAG22/#multiple-ways"
+      },
+      {
+        "code": "2.4.4",
+        "level": "A",
+        "title": "Havola maqsadi — kontekstda",
+        "description": "Havola matnini shunday yozingki, u umumiy matndan ajratib olinganda ham foydalanuvchiga qayerga olib borishi tushunarli bo'lsin. \"Batafsil\" o'rniga \"Xizmatlar haqida batafsil ma'lumot\" kabi aniq jumlalardan foydalaning.",
+        "url": "https://www.w3.org/TR/WCAG22/#link-purpose-in-context"
+      },
+      {
+        "code": "2.3.1",
+        "level": "A",
+        "title": "Uch marta chaqnash yoki chegara qiymatidan pastlik",
+        "description": "Veb-sahifada hech bir element soniyasiga 3 martadan ko'p chaqnamasligi kerak. Bu fotosensitiv epilepsiyasi bor foydalanuvchilarda xuruj paydo bo'lishining oldini oladi.",
+        "url": "https://www.w3.org/TR/WCAG22/#three-flashes-or-below-threshold"
+      },
+      {
+        "code": "2.2.2",
+        "level": "A",
+        "title": "To'xtatib turish, To'xtatish, Yashirish",
+        "description": "Avtomatik ravishda ishga tushadigan va 5 soniyadan ko'proq davom etadigan harakatlanuvchi (slayderlar), chaqnovchi yoki avtomatik yangilanadigan kontent foydalanuvchiga uni to'xtatish yoki yashirish imkonini beruvchi tugmaga ega bo'lishi shart.",
+        "url": "https://www.w3.org/TR/WCAG22/#pause-stop-hide"
+      },
+      {
+        "code": "2.2.1",
+        "level": "A",
+        "title": "Vaqtni tartibga solish",
+        "description": "Agar saytda vaqt cheklovi bo'lsa (masalan, test topshirishda), foydalanuvchilarga bu vaqtni to'xtatib turish, uzaytirish yoki o'chirish imkoniyati berilishi kerak.",
+        "url": "https://www.w3.org/TR/WCAG22/#timing-adjustable"
+      },
+      {
+        "code": "2.1.2",
+        "level": "A",
+        "title": "Klaviatura tuzog'i yo'qligi",
+        "description": "Faqat klaviaturadan foydalanuvchi insonlar biror elementga (masalan, videopleyer yoki modal oynaga) kirganda, u yerda qolib ketmasliklari kerak. Ularda har doim faqat klaviatura yordamida orqaga chiqish yo'li bo'lishi shart.",
+        "url": "https://www.w3.org/TR/WCAG22/#no-keyboard-trap"
+      },
+      {
+        "code": "1.4.5",
+        "level": "AA",
+        "title": "Matnli tasvirlar",
+        "description": "Veb-saytingizda matnni rasm ko'rinishida joylashtirmang. Skrinriderlar bunday matnlarni o'qiy olmaydi. Faqat logotiplar kabi brending elementlari bundan mustasno.",
+        "url": "https://www.w3.org/TR/WCAG22/#images-of-text"
+      },
+      {
+        "code": "1.4.4",
+        "level": "AA",
+        "title": "Matn o'lchamini o'zgartirish",
+        "description": "Saytingizdagi barcha matnlar brauzer orqali 200% gacha kattalashtirilganda, ular bir-birining ustiga chiqib ketmasligi, rasm ostida qolib ketmasligi yoki o'qish imkonsiz bo'lib qolmasligi kerak.",
+        "url": "https://www.w3.org/TR/WCAG22/#resize-text"
+      },
+      {
+        "code": "1.4.3",
+        "level": "AA",
+        "title": "Ranglar kontrasti",
+        "description": "Oddiy matn va fon o'rtasidagi kontrast kamida 4.5:1, yirik matnlar uchun esa 3:1 bo'lishi kerak. Bu ko'rish qobiliyati zaif insonlarga kontentni erkin o'qish imkonini beradi.",
+        "url": "https://www.w3.org/TR/WCAG22/#contrast-minimum"
+      },
+      {
+        "code": "1.4.2",
+        "level": "A",
+        "title": "Tovushni boshqarish",
+        "description": "Agar saytda audio avtomatik ravishda ijro etilsa, uni to'xtatish yoki ovozini pasaytirish uchun tugma bo'lishi kerak. Bu skrinrider ovozi bilan audio ovozi aralashib ketishining oldini oladi.",
+        "url": "https://www.w3.org/TR/WCAG22/#audio-control"
+      },
+      {
+        "code": "1.4.1",
+        "level": "A",
+        "title": "Rangdan foydalanish",
+        "description": "Ma'lumotni (masalan, majburiy maydonlarni yoki xatolarni) faqat rang orqali belgilamang. Rangni ajrata olmaydigan insonlar uchun qo'shimcha matnli ko'rsatma yoki piktogrammalar qo'shing.",
+        "url": "https://www.w3.org/TR/WCAG22/#use-of-color"
+      },
+      {
+        "code": "1.3.3",
+        "level": "A",
+        "title": "Sensor xususiyatlar",
+        "description": "Ko'rsatmalarni \"O'ng tomondagi yumaloq tugmani bosing\" kabi faqat shakl yoki joylashuvga asoslanib bermang. Buning o'rniga \"O'ng tomondagi 'Yuborish' yumaloq tugmasini bosing\" deb aniqlashtiring.",
+        "url": "https://www.w3.org/TR/WCAG22/#sensory-characteristics"
+      },
+      {
+        "code": "1.3.1",
+        "level": "A",
+        "title": "Axborot va o'zaro bog'liqlik",
+        "description": "Veb-saytning tuzilishini (sarlavhalar, ro'yxatlar, jadval katakchalari) to'g'ri HTML kodlari bilan belgilang. Shunda skrinrider foydalanuvchiga kontentning vizual tartibini to'g'ri yetkazib bera oladi.",
+        "url": "https://www.w3.org/TR/WCAG22/#info-and-relationships"
+      },
+      {
+        "code": "1.1.1",
+        "level": "A",
+        "title": "Matnsiz kontent",
+        "description": "Rasmlar, infografikalar va piktogrammalar uchun mazmunli muqobil matn (alt-text) yozing. Bu tasvirni ko'ra olmaydigan foydalanuvchiga uning ma'nosini tushunishga yordam beradi.",
+        "url": "https://www.w3.org/TR/WCAG22/#non-text-content"
+      }
+    ]
+  },
+  "developers": {
+    "hero": {
+      "title": "Erishiluvchanlikni hisobga olgan holda dasturlash",
+      "subtitle": "Veb-saytlar va boshqa raqamli resurslarning erishiluvchanligini ta'minlashda dasturchilar hal qiluvchi rol o'ynaydilar. Erishiluvchanlikka oid ko'plab talablar texnik xarakterga ega bo'lib, bevosita kodning o'zida shakllanadi. Kod yozishning eng boshidanoq Veb-kontentning erishiluvchanligi bo'yicha qo'llanmaning (WCAG) 2.1 AA texnik talablariga muvofiq keladigan erishiluvchanlik standartlarini hisobga olish o'ta muhimdir."
+    },
+    "intro": "WCAG 2.1 AA standarti 50 ta muvaffaqiyat mezonini o'z ichiga olgan bo'lsa-da, ishni atigi bir nechta asosiy yaxshilanishlarga e'tibor qaratishdan boshlasangiz, veb-saytingiz va boshqa raqamli resurslaringiz erishiluvchanligiga sezilarli ta'sir ko'rsatgan bo'lasiz.",
+    "cards": [
+      {
+        "title": "Har bir shakl boshqaruvi elementiga yorliq (label) biriktiring",
+        "description": "Shakl yorliqlari yordamida foydalanuvchilar qanday ma'lumot kiritishlari kerakligini bilib oladilar. Foydalanuvchi kerakli ma'lumotlarni adashmasdan kirita olishi uchun yetarli darajada axborot taqdim etilganiga ishonch hosil qiling.",
+        "criterion": "WCAG 3.3.2 muvaffaqiyat mezoni",
+        "criterionUrl": "https://www.w3.org/TR/WCAG22/#labels-or-instructions"
+      },
+      {
+        "title": "Ko'rsatkich orqali kiritish qaytariladigan bo'lishi kerak",
+        "description": "Harakatni bekor qilish yoki to'xtatish imkoniyatini qo'shing; bu foydalanuvchiga sichqoncha kursorini yoki barmog'ini boshqa joyga surish va hech qanday oqibatlarsiz qo'yib yuborish imkonini beradi. Yana bir variant — amalni bekor qilish yoki uni davom ettirishni tasdiqlash imkonini berishdir. Bu oddiy tasdiqlash oynasi (pop-up) bo'lishi ham mumkin.",
+        "criterion": "WCAG 2.5.2 muvaffaqiyat mezoni",
+        "criterionUrl": "https://www.w3.org/TR/WCAG22/#pointer-cancellation"
+      },
+      {
+        "title": "Sahifa tilini va tildagi o'zgarishlarni belgilang",
+        "description": "Sahifa tili aniq belgilanganligi sababli, oddiy foydalanuvchilar ham, skrinrider foydalanuvchilari ham matnni aniqroq tushunishlari mumkin. Xuddi shu qoida hujjatning turli joylarida til o'zgargan hollarga ham tegishli (masalan, ingliz tilidan ispan tiliga o'tganda).",
+        "criterion": "WCAG 3.1.1 muvaffaqiyat mezoni",
+        "criterionUrl": "https://www.w3.org/TR/WCAG22/#language-of-page"
+      },
+      {
+        "title": "Axborot va o'zaro bog'liqlikni tizimlashtiring",
+        "description": "Veb-saytingizni shunday tuzingki, kontent skrinriderlar tomonidan xuddi vizual ko'rinishdagi kabi tartibda o'qilsin. Sarlavhalarni to'g'ri kodlash bunga yaxshi misol bo'la oladi.",
+        "criterion": "WCAG 1.3.1 muvaffaqiyat mezoni",
+        "criterionUrl": "https://www.w3.org/TR/WCAG22/#info-and-relationships"
+      },
+      {
+        "title": "To'g'ri o'qish tartibini o'rnating",
+        "description": "O'qish tartibini sozlash skrinriderlar yoki matnni nutqqa aylantiruvchi texnologiyalarga ma'lumotni mantiqiy ketma-ketlikda o'qish imkonini beradi. Agar jadval, rasm va diagrammalardagi ma'lumotlar to'g'ri belgilanmagan bo'lsa, yordamchi texnologiyalardan foydalanuvchi inson hujjat ichida mo'ljalni yo'qotib qo'yishi mumkin.",
+        "criterion": "WCAG 1.3.2 muvaffaqiyat mezoni",
+        "criterionUrl": "https://www.w3.org/TR/WCAG22/#meaningful-sequence"
+      },
+      {
+        "title": "Vizual va dasturiy belgilar mos kelishi kerak",
+        "description": "Ba'zi tugmalar, shakl maydonlari, selektorlar va boshqa interaktiv elementlar dasturiy belgiga (kod ichidagi nomga) ega bo'lishi mumkin, u veb-saytda vizual ko'rinib turgan nomdan biroz farq qilishi mumkin. Bir xil belgi va matndan foydalanish — bir nechta bir xil so'zlardan iborat matn va belgining boshlanishini ta'minlash demakdir.",
+        "criterion": "WCAG 2.5.3 muvaffaqiyat mezoni",
+        "criterionUrl": "https://www.w3.org/TR/WCAG22/#label-in-name"
+      },
+      {
+        "title": "Nostandart interaktiv elementlarga ma'no bering",
+        "description": "Foydalanuvchi vidjetlarining (masalan, akvordeonlar yoki foydalanuvchi tomonidan yaratilgan tugmalar) vazifalari va holati haqida ma'lumot berish uchun WAI-ARIA dan foydalaning.",
+        "criterion": "WCAG 4.1.2 muvaffaqiyat mezoni",
+        "criterionUrl": "https://www.w3.org/TR/WCAG22/#name-role-value"
+      },
+      {
+        "title": "Barcha interaktiv elementlar klaviatura yordamida erishiluvchan ekanligiga ishonch hosil qiling",
+        "description": "Veb-kontent to'liq erishiluvchan deb hisoblanishi uchun u foydalanuvchi navigatsiyasi uchun ochiq bo'lishi, faqat klaviaturadagi Tab tugmasidan foydalangan holda to'g'ri fokuslanishni ta'minlashi shart.",
+        "criterion": "WCAG 2.1.1 muvaffaqiyat mezoni",
+        "criterionUrl": "https://www.w3.org/TR/WCAG22/#keyboard"
+      },
+      {
+        "title": "Iloji boricha CAPTCHA dan foydalanishdan qoching",
+        "description": "CAPTCHA barcha foydalanuvchilar, ayniqsa imkoniyati cheklangan insonlar uchun qiyin bo'lishi mumkin. Shu sababli, spam va botlarni filtrlashning muqobil usullari bor-yo'qligini aniqlashtiring.",
+        "criterion": "WCAG 1.1.1 muvaffaqiyat mezoni",
+        "criterionUrl": "https://www.w3.org/TR/WCAG22/#non-text-content"
+      }
+    ],
+    "additionalTitle": "Dasturchilar uchun qo'shimcha WCAG muvaffaqiyat mezonlari",
+    "additionalCriteria": [
+      {
+        "code": "3.2.6",
+        "level": "A",
+        "title": "Doimiy yordam",
+        "description": "Veb-erishiluvchanlik olamida izchillik asosiy ahamiyatga ega. Inkluziv tajribani ta'minlash uchun veb-saytlar izchil va oldindan taxmin qilinadigan tarzda loyihalanishi kerak — bu foydalanuvchiga yordam beruvchi kontakt ma'lumotlari yoki qidiruv tizimi kabi elementlarning har bir sahifada bir xil joyda bo'lishini anglatadi.",
+        "url": "https://www.w3.org/TR/WCAG22/#consistent-help"
+      },
+      {
+        "code": "3.1.2",
+        "level": "AA",
+        "title": "Bo'laklar tili",
+        "description": "Agar sahifaning ma'lum bir qismidagi matn (masalan, iqtibos (tsitata) yoki chet tilidagi ibora) sahifaning asosiy tilidan farq qilsa, ushbu qism uchun dasturiy ravishda tegishli til atributini (lang) ko'rsatish shart. Bu skrinriderlarga o'sha bo'lakni to'g'ri talaffuz bilan o'qib berish imkonini beradi.",
+        "url": "https://www.w3.org/TR/WCAG22/#language-of-parts"
+      },
+      {
+        "code": "1.4.13",
+        "level": "AA",
+        "title": "Kursorni ustiga olib kelganda yoki fokuslangandagi kontent",
+        "description": "Sichqoncha kursorini olib kelganda yoki klaviatura fokusi tushganda paydo bo'ladigan qo'shimcha kontent (masalan, tooltip) foydalanuvchi tomonidan osongina yopilishi, kursor uzoqlashtirilmaguncha yo'qolmasligi va kursorning ushbu yangi kontent ustiga o'tishiga imkon berishi kerak.",
+        "url": "https://www.w3.org/TR/WCAG22/#content-on-hover-or-focus"
+      },
+      {
+        "code": "2.5.1",
+        "level": "A",
+        "title": "Ko'rsatkich imo-ishoralari",
+        "description": "Murakkab sensor harakatlar (masalan, svayp qilish yoki ikki barmoq bilan yaqinlashtirish) talab qilinadigan funksiyalar uchun oddiy bosish yoki uzoq bosish kabi muqobil boshqaruv usullarini taqdim eting.",
+        "url": "https://www.w3.org/TR/WCAG22/#pointer-gestures"
+      },
+      {
+        "code": "3.3.2",
+        "level": "A",
+        "title": "Yorliqlar yoki ko'rsatmalar",
+        "description": "Foydalanuvchidan ma'lumot kiritishni yoki amal bajarishni talab qiladigan har bir element uchun (masalan, matn maydonlari) qisqa va tushunarli yorliqlar (labels) hamda yo'riqnomalar taqdim eting.",
+        "url": "https://www.w3.org/TR/WCAG22/#labels-or-instructions"
+      },
+      {
+        "code": "2.5.2",
+        "level": "A",
+        "title": "Ko'rsatkich orqali kiritishni bekor qilish",
+        "description": "Tugmani bosish (down-event) emas, balki qo'yib yuborish (up-event) paytida amal bajarilishini ta'minlang. Bu foydalanuvchiga barmog'ini tugma ustidan surib, amalni tasodifiy bajarilishidan saqlab qolish imkonini beradi.",
+        "url": "https://www.w3.org/TR/WCAG22/#pointer-cancellation"
+      },
+      {
+        "code": "3.3.9",
+        "level": "A",
+        "title": "Takroriy kiritish",
+        "description": "Ro'yxatdan o'tish kabi ko'p bosqichli jarayonlarda foydalanuvchi oldingi bosqichlarda kiritgan ma'lumotlar avtomatik to'ldirilishi yoki tanlash uchun tayyor turishi kerak. Foydalanuvchi bir xil ma'lumotni qayta-qayta yozishga majbur bo'lmasligi lozim.",
+        "url": "https://www.w3.org/TR/WCAG22/#redundant-entry"
+      },
+      {
+        "code": "3.3.8",
+        "level": "AAA",
+        "title": "Erishiluvchan autentifikatsiya — istisnolarsiz",
+        "description": "Tizimga kirishda kognitiv testlar (masalan, murakkab misollarni yechish yoki parolni eslab qolish) talab qilinmasligi kerak. Buning o'rniga nusxa ko'chirish (copy-paste) yoki avtomatik to'ldirish kabi oson usullarni taqdim eting.",
+        "url": "https://www.w3.org/TR/WCAG22/#accessible-authentication-enhanced"
+      },
+      {
+        "code": "3.3.7",
+        "level": "AA",
+        "title": "Erishiluvchan autentifikatsiya",
+        "description": "Tizimga kirish uchun kognitiv funksiyalarni sinovdan o'tkazuvchi testlar faqat cheklangan hollardagina qo'llanilishi mumkin. Foydalanuvchi uchun kamida bitta kognitiv test talab qilmaydigan muqobil kirish usuli bo'lishi shart.",
+        "url": "https://www.w3.org/TR/WCAG22/#accessible-authentication-minimum"
+      },
+      {
+        "code": "2.5.8",
+        "level": "AA",
+        "title": "Nishon o'lchami — Minimal",
+        "description": "Barcha interaktiv elementlarning (tugma, havola) bosilish maydoni kamida 24x24 CSS piksel bo'lishi kerak. Bu element atrofidagi bo'shliqni ham o'z ichiga olishi mumkin.",
+        "url": "https://www.w3.org/TR/WCAG22/#target-size-minimum"
+      },
+      {
+        "code": "2.5.7",
+        "level": "AA",
+        "title": "Surish (Drag-and-Drop) harakati",
+        "description": "Agar saytda elementlarni surib o'tkazish funksiyasi bo'lsa, buni shunchaki bosish yoki tegish orqali bajarish imkoniyatini ham yarating.",
+        "url": "https://www.w3.org/TR/WCAG22/#dragging-movements"
+      },
+      {
+        "code": "2.4.13",
+        "level": "AAA",
+        "title": "Fokus to'silmasligi — Yaxshilangan",
+        "description": "Klaviatura fokusi biror elementga tushganda, fokus indikatori (ramka) saytdagi boshqa hech qanday kontent (masalan, \"yopishib qolgan\" bannerlar) ortida qolib ketmasligi kerak.",
+        "url": "https://www.w3.org/TR/WCAG22/#focus-not-obscured-enhanced"
+      },
+      {
+        "code": "2.4.12",
+        "level": "AA",
+        "title": "Fokus to'silmasligi — Minimal",
+        "description": "Klaviatura fokusi tushgan element va uning indikatori boshqa kontent tomonidan to'liq to'silib qolmasligi yoki kesilib ketmasligi lozim.",
+        "url": "https://www.w3.org/TR/WCAG22/#focus-not-obscured-minimum"
+      },
+      {
+        "code": "3.1.5",
+        "level": "AAA",
+        "title": "O'qish darajasi",
+        "description": "Matnlar sodda va tushunarli tilda yozilishi kerak. Agar matn murakkab bo'lsa (o'rta maktab darajasidan yuqori), uning qisqartirilgan va sodda tildagi varianti yoki tushuntirishini taqdim eting.",
+        "url": "https://www.w3.org/TR/WCAG22/#reading-level"
+      },
+      {
+        "code": "4.1.3",
+        "level": "AA",
+        "title": "Holat haqidagi xabarlar",
+        "description": "Sahifada paydo bo'ladigan yangi xabarlar (masalan, \"ma'lumot saqlandi\") fokusni o'ziga olmagan taqdirda ham, skrinriderlar tomonidan dasturiy ravishda (masalan, aria-live yordamida) foydalanuvchiga e'lon qilinishi shart.",
+        "url": "https://www.w3.org/TR/WCAG22/#status-messages"
+      },
+      {
+        "code": "2.5.4",
+        "level": "A",
+        "title": "Harakat orqali ishga tushirish",
+        "description": "Qurilmani silkitish yoki kamera oldida imo-ishora qilish orqali bajariladigan funksiyalar oddiy interfeys elementlari (tugmalar) orqali ham bajarilishi va bu sensor harakatlarni o'chirib qo'yish imkoniyati bo'lishi kerak.",
+        "url": "https://www.w3.org/TR/WCAG22/#motion-actuation"
+      },
+      {
+        "code": "2.1.4",
+        "level": "A",
+        "title": "Belgili klaviaturaning tezkor tugmalari",
+        "description": "Faqat bitta harf yoki belgidan iborat tezkor tugmalar (masalan, \"G\" harfini bosganda pochtaga o'tish) foydalanuvchi tomonidan o'zgartirilishi, o'chirilishi yoki faqat fokus o'sha elementda bo'lgandagina ishlashi kerak.",
+        "url": "https://www.w3.org/TR/WCAG22/#character-key-shortcuts"
+      },
+      {
+        "code": "1.3.5",
+        "level": "AA",
+        "title": "Kirish ma'lumotlarining maqsadini aniqlash",
+        "description": "Shaxsiy ma'lumotlarni kiritish maydonlarida (ism, email, manzil) brauzerning avtomatik to'ldirish (autocomplete) funksiyasidan foydalanish imkonini yarating.",
+        "url": "https://www.w3.org/TR/WCAG22/#identify-input-purpose"
+      },
+      {
+        "code": "4.1.2",
+        "level": "A",
+        "title": "Nom, rol, qiymat",
+        "description": "Barcha interfeys elementlari (shakllar, tugmalar, skriptlar) o'z nomiga (name) va roliga (role) ega bo'lishi shart. Ularning holati (masalan, \"belgilangan\" yoki \"yopilgan\") skrinriderlar uchun ochiq bo'lishi lozim.",
+        "url": "https://www.w3.org/TR/WCAG22/#name-role-value"
+      },
+      {
+        "code": "4.1.1",
+        "level": "A",
+        "title": "Kod tahlili",
+        "description": "Veb-sayt kodi xatolarsiz, teglar to'g'ri ochilib-yopilgan va takrorlanmas ID-larga ega bo'lishi kerak. Bu yordamchi texnologiyalarning kodni to'g'ri talqin qilishini ta'minlaydi.",
+        "url": "https://www.w3.org/TR/WCAG22/#parsing"
+      },
+      {
+        "code": "3.3.1",
+        "level": "A",
+        "title": "Xatolarni aniqlash",
+        "description": "Agar foydalanuvchi ma'lumot kiritishda xato qilsa, tizim bu xatoni aniqlashi, uni matn shaklida tasvirlashi va foydalanuvchiga qayerda xato qilganini ko'rsatishi shart.",
+        "url": "https://www.w3.org/TR/WCAG22/#error-identification"
+      },
+      {
+        "code": "3.2.2",
+        "level": "A",
+        "title": "Ma'lumot kiritishda",
+        "description": "Foydalanuvchi biror katakchani belgilashi yoki matn yozishi bilan sahifada kutilmagan, keskin o'zgarishlar (masalan, boshqa sahifaga o'tib ketish) yuz bermasligi kerak.",
+        "url": "https://www.w3.org/TR/WCAG22/#on-input"
+      },
+      {
+        "code": "3.1.1",
+        "level": "A",
+        "title": "Sahifa tili",
+        "description": "Har bir veb-sahifaning asosiy tili kodning eng yuqori qismida (<html lang=\"uz\">) aniq ko'rsatilishi shart.",
+        "url": "https://www.w3.org/TR/WCAG22/#language-of-page"
+      },
+      {
+        "code": "2.4.7",
+        "level": "A",
+        "title": "Ko'rinadigan fokus",
+        "description": "Klaviatura orqali harakatlanganda, aynan qaysi element (tugma, havola) tanlanib turgani vizual ravishda (odatda ramka orqali) aniq ko'rinishi shart.",
+        "url": "https://www.w3.org/TR/WCAG22/#focus-visible"
+      },
+      {
+        "code": "2.4.3",
+        "level": "A",
+        "title": "Fokus tartibi",
+        "description": "Klaviaturadagi Tab tugmasi bosilganda, fokus elementlar bo'ylab mantiqiy va vizual ketma-ketlikda (chapdan o'ngga, yuqoridan pastga) harakatlanishi lozim.",
+        "url": "https://www.w3.org/TR/WCAG22/#focus-order"
+      },
+      {
+        "code": "2.4.1",
+        "level": "A",
+        "title": "Bloklarni chetlab o'tish",
+        "description": "Sahifaning eng yuqori qismida asosiy menyu yoki reklamalarni tashlab o'tib, to'g'ridan-to'g'ri asosiy kontentga sakrash imkonini beruvchi havola (masalan, \"Asosiy kontentga o'tish\" tugmasi) bo'lishi kerak.",
+        "url": "https://www.w3.org/TR/WCAG22/#bypass-blocks"
+      },
+      {
+        "code": "2.1.1",
+        "level": "A",
+        "title": "Klaviatura",
+        "description": "Veb-saytdagi barcha funksiyalar va havolalar sichqonchasiz, faqat klaviatura yordamida to'liq foydalanish imkoniyatiga ega bo'lishi shart.",
+        "url": "https://www.w3.org/TR/WCAG22/#keyboard"
+      },
+      {
+        "code": "1.3.2",
+        "level": "A",
+        "title": "Mantiqiy ketma-ketlik",
+        "description": "Kodning tuzilishi kontentning mantiqiy tartibini aks ettirishi kerak, shunda skrinrider ma'lumotlarni vizual tartib bilan bir xil ketma-ketlikda o'qib beradi.",
+        "url": "https://www.w3.org/TR/WCAG22/#meaningful-sequence"
+      }
+    ]
+  },
+  "contentManagers": {
+    "hero": {
+      "title": "Matnli axborotning erishiluvchanligi",
+      "subtitle": "Erishiluvchanlik masalalari dizayn bilan boshlanib, kod bilan yakunlanib qolmaydi. Mualliflar yoki kontent yaratuvchilar veb-saytlar va boshqa raqamli resurslarning erishiluvchanligi hamda foydalanish qulayligiga sezilarli ta'sir ko'rsatishlari mumkin. Asosiy maqsad — kontentingizni topish va tushunish oson bo'lishini ta'minlashdir. Muqobil matnlar, sarlavhalarning to'g'ri tuzilmasi va sodda tildan samarali foydalanish kontentingizni imkon qadar ko'proq insonlar uchun erishiluvchan qiladigan asosiy omillardan hisoblanadi."
+    },
+    "intro": "Erishiluvchan kontent yaratish — bu shunchaki sahifadagi barcha ma'lumotlarni matn ko'rinishida taqdim etishdan ko'proq narsani anglatadi. Erishiluvchan matn yozish, shuningdek, kontentni qanday tashkil qilishingizga va o'quvchini sahifa bo'ylab qanday yo'naltirishingizga ham ta'sir qiladi. WCAG'ning bir qancha muvaffaqiyat mezonlari erishiluvchan kontent ishlab chiqishga taalluqlidir va ularning joriy etilishi foydalanuvchi tajribasiga sezilarli ta'sir ko'rsatadi.",
+    "cards": [
+      {
+        "title": "Axborotga boy va noyob sahifa sarlavhalaridan foydalaning.",
+        "description": "Har bir sahifani boshqalaridan uning mazmunini tavsiflovchi qisqa sarlavha bilan farqlang. Sarlavhaning boshida eng muhim va takrorlanmas ma'lumotni ko'rsating.",
+        "criterion": "WCAG 2.4.2 muvaffaqiyat mezoni →",
+        "criterionUrl": "https://www.w3.org/TR/WCAG22/#page-titled"
+      },
+      {
+        "title": "Sarlavhalar mazmun va tuzilishni yetkazib beradi.",
+        "description": "Sahifa mundarijasini shakllantirish uchun sarlavha va kichik sarlavhalardan foydalaning. O'zaro bog'liq abzaslarni guruhlash uchun qisqa sarlavhalarni qo'llang.",
+        "criterion": "WCAG 2.4.6 muvaffaqiyat mezoni →",
+        "criterionUrl": "https://www.w3.org/TR/WCAG22/#headings-and-labels"
+      },
+      {
+        "title": "Tasvirning muqobil varianti (alt text).",
+        "description": "Dekorativ bo'lmagan tasvirlar uchun muqobil matn fotosurat mazmunini yoki tasvir bajaradigan vazifani aniq ta'riflashiga ishonch hosil qiling.",
+        "criterion": "WCAG 1.1.1 muvaffaqiyat mezoni →",
+        "criterionUrl": "https://www.w3.org/TR/WCAG22/#non-text-content"
+      },
+      {
+        "title": "Multimediya materiallari uchun transkript va subtitrlar taqdim eting.",
+        "description": "Audio kontent uchun albatta transkript (matnli variant) taqdim eting. Audio va video kontent uchun esa subtitrlar, jumladan audio-tavsiflar bilan ta'minlang.",
+        "criterion": "WCAG 1.2.2 muvaffaqiyat mezoni →",
+        "criterionUrl": "https://www.w3.org/TR/WCAG22/#captions-prerecorded"
+      },
+      {
+        "title": "Mazmun aniq va lo'nda bo'lishi kerak.",
+        "description": "Sodda tildan, jumladan qisqa, tushunarli gaplar va abzaslardan foydalaning. Iloji boricha ro'yxatlarni qo'llang va abbreviaturalarni (qisqartmalarni) birinchi marta ishlatganda to'liq yozib ko'rsating.",
+        "criterion": "WCAG 3.1.5 muvaffaqiyat mezoni →",
+        "criterionUrl": "https://www.w3.org/TR/WCAG22/#reading-level"
+      }
+    ],
+    "additionalTitle": "Kontent menejerlar uchun qo'shimcha WCAG muvaffaqiyat mezonlari",
+    "additionalCriteria": [
+      {
+        "code": "3.1.2",
+        "level": "AA",
+        "title": "Bo'laklar tili",
+        "description": "Agar sahifaning ma'lum bir qismidagi matn (masalan, iqtibos yoki chet tilidagi ibora) sahifaning asosiy tilidan farq qilsa, ushbu qism uchun tegishli til atributini (lang) ko'rsatish orqali zarur o'zgarishlarni kiritish shart.",
+        "url": "https://www.w3.org/TR/WCAG22/#language-of-parts"
+      },
+      {
+        "code": "2.5.3",
+        "level": "A",
+        "title": "Nomdagi yorliq",
+        "description": "Interfeys elementlarining vizual ko'rinib turgan nomi va dasturiy koddagi yorlig'i (label) bir-biriga mos kelishi kerak. Bu ovozli boshqaruvdan foydalanuvchilar uchun juda muhim.",
+        "url": "https://www.w3.org/TR/WCAG22/#label-in-name"
+      },
+      {
+        "code": "3.2.4",
+        "level": "AA",
+        "title": "Izchil identifikatsiya",
+        "description": "Sayt bo'ylab bir xil vazifani bajaruvchi komponentlar (masalan, qidiruv tugmasi, savatcha belgisi) butun sayt davomida bir xil nom, yorliq va muqobil matnlar bilan belgilanishi shart.",
+        "url": "https://www.w3.org/TR/WCAG22/#consistent-identification"
+      },
+      {
+        "code": "1.4.13",
+        "level": "AA",
+        "title": "Kursorni ustiga olib kelganda yoki fokuslangandagi kontent",
+        "description": "Sichqoncha kursorini olib kelganda yoki klaviatura fofusi tushganda paydo bo'ladigan va keyin yashiriladigan qo'shimcha kontent (pop-up, tooltip) holatlarini tartibga solishni ta'minlash lozim.",
+        "url": "https://www.w3.org/TR/WCAG22/#content-on-hover-or-focus"
+      },
+      {
+        "code": "2.4.6",
+        "level": "AA",
+        "title": "Sarlavhalar va belgilar",
+        "description": "Sarlavhalar va yorliqlar kontentning mazmunini aniq tavsiflashi kerak. Bu foydalanuvchilarga kerakli ma'lumotni tezroq topish va sahifa tuzilishini tushunishga yordam beradi.",
+        "url": "https://www.w3.org/TR/WCAG22/#headings-and-labels"
+      },
+      {
+        "code": "2.4.2",
+        "level": "A",
+        "title": "Sarlavhali sahifa",
+        "description": "Har bir veb-sahifa o'ziga xos va axborotga boy sarlavhaga (<title>) ega bo'lishi kerak, bu foydalanuvchiga sahifaning mavzusi yoki maqsadini tushunish imkonini beradi.",
+        "url": "https://www.w3.org/TR/WCAG22/#page-titled"
+      },
+      {
+        "code": "1.4.5",
+        "level": "AA",
+        "title": "Matnli tasvirlar",
+        "description": "Veb-saytingizda matnni rasm ko'rinishida ishlatmang, faqat bu brending (logotip) uchun zarur bo'lgan hollar bundan mustasno. Haqiqiy matndan foydalanish uni kattalashtirish va skrinriderlar o'qishi uchun qulaydir.",
+        "url": "https://www.w3.org/TR/WCAG22/#images-of-text"
+      },
+      {
+        "code": "1.3.3",
+        "level": "A",
+        "title": "Sensor xususiyatlar",
+        "description": "Faqat shakl, o'lcham, vizual joylashuv yoki tovushga tayanadigan ko'rsatmalar bermang. Ko'rsatmalaringiz bir nechta sezgi organlari orqali tushunilishi uchun aniq va batafsil bo'lishi lozim.",
+        "url": "https://www.w3.org/TR/WCAG22/#sensory-characteristics"
+      },
+      {
+        "code": "1.2.5",
+        "level": "A",
+        "title": "Audio-tavsif — Oldindan yozib olingan",
+        "description": "Barcha oldindan yozib olingan videoroliklar vizual harakatlarni tushuntirib beruvchi audio-tavsifga (diktor matniga) ega bo'lishi shart.",
+        "url": "https://www.w3.org/TR/WCAG22/#audio-description-prerecorded"
+      },
+      {
+        "code": "1.2.4",
+        "level": "A",
+        "title": "Subtitrlar — Jonli efir",
+        "description": "Barcha jonli videotranslyatsiyalar uchun real vaqt rejimida subtitrlar taqdim etilishi kerak. Subtitrlar so'zlovchini aniqlashi va muhim atrof-muhit tovushlarini o'z ichiga olishi lozim.",
+        "url": "https://www.w3.org/TR/WCAG22/#captions-live"
+      },
+      {
+        "code": "1.2.3",
+        "level": "A",
+        "title": "Audio-tavsif yoki muqobil media varianti — Oldindan yozib olingan",
+        "description": "Barcha oldindan yozib olingan videofayllar uchun yoki audio-tavsif, yoki videodagi barcha vizual va audio ma'lumotni o'z ichiga olgan to'liq matnli transkript taqdim etilishi kerak.",
+        "url": "https://www.w3.org/TR/WCAG22/#audio-description-or-media-alternative-prerecorded"
+      },
+      {
+        "code": "1.2.2",
+        "level": "A",
+        "title": "Subtitrlar — Oldindan yozib olingan",
+        "description": "Barcha oldindan yozib olingan videofayllar uchun kadrlar bilan sinxronlashtirilgan va ma'no jihatidan to'g'ri subtitrlar (CC) bo'lishi shart.",
+        "url": "https://www.w3.org/TR/WCAG22/#captions-prerecorded"
+      },
+      {
+        "code": "1.1.1",
+        "level": "A",
+        "title": "Matnsiz kontent",
+        "description": "Veb-saytingizdagi barcha tasvirlar va boshqa matnsiz elementlar uchun mazmunli muqobil matnlar (alt-text) qo'shish orqali ularning hamma uchun erishiluvchanligini ta'minlang.",
+        "url": "https://www.w3.org/TR/WCAG22/#non-text-content"
+      }
+    ]
+  },
+  "resources": {
+    "hero": {
+      "title": "Foydali resurslar",
+      "subtitle": "Raqamli erishiluvchanlik bo'yicha eng yaxshi manbalar va vositalar"
+    },
+    "sections": {
+      "standards": {
+        "title": "Standartlar va yo'riqnomalar",
+        "items": [
+          {
+            "title": "WCAG 2.1",
+            "description": "Veb kontent erishiluvchanlik yo'riqnomalari — W3C ning rasmiy standarti",
+            "url": "https://www.w3.org/TR/WCAG21/"
+          },
+          {
+            "title": "WCAG 2.2",
+            "description": "WCAG ning eng so'nggi versiyasi — yangi mezonlar va tavsiyalar bilan",
+            "url": "https://www.w3.org/TR/WCAG22/"
+          },
+          {
+            "title": "WAI-ARIA 1.2",
+            "description": "Erishiluvchan Rich Internet Applications spetsifikatsiyasi",
+            "url": "https://www.w3.org/TR/wai-aria-1.2/"
+          },
+          {
+            "title": "ATAG 2.0",
+            "description": "Mualliflik vositalari erishiluvchanlik yo'riqnomalari",
+            "url": "https://www.w3.org/TR/ATAG20/"
+          }
+        ]
+      },
+      "tools": {
+        "title": "Tekshirish vositalari",
+        "items": [
+          {
+            "title": "axe DevTools",
+            "description": "Brauzer kengaytmasi — avtomatik erishiluvchanlik tekshiruvi",
+            "url": "https://www.deque.com/axe/devtools/"
+          },
+          {
+            "title": "WAVE",
+            "description": "Veb erishiluvchanlikni baholash vositasi",
+            "url": "https://wave.webaim.org/"
+          },
+          {
+            "title": "Lighthouse",
+            "description": "Google Chrome ning o'rnatilgan sayt sifati tekshiruvi",
+            "url": "https://developer.chrome.com/docs/lighthouse/"
+          },
+          {
+            "title": "WebAIM Contrast Checker",
+            "description": "Rang kontrast nisbatini tekshirish vositasi",
+            "url": "https://webaim.org/resources/contrastchecker/"
+          },
+          {
+            "title": "Pa11y",
+            "description": "Avtomatlashtirilgan erishiluvchanlik sinov vositasi",
+            "url": "https://pa11y.org/"
+          }
+        ]
+      },
+      "learning": {
+        "title": "O'quv resurslari",
+        "items": [
+          {
+            "title": "W3C Web Accessibility Initiative",
+            "description": "Erishiluvchanlik bo'yicha asosiy resurs va o'quv materiallari",
+            "url": "https://www.w3.org/WAI/"
+          },
+          {
+            "title": "MDN Accessibility",
+            "description": "Mozilla ning erishiluvchanlik bo'yicha to'liq qo'llanmasi",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/Accessibility"
+          },
+          {
+            "title": "A11y Project",
+            "description": "Erishiluvchanlik bo'yicha hamjamiyat resursi",
+            "url": "https://www.a11yproject.com/"
+          },
+          {
+            "title": "Inclusive Components",
+            "description": "Erishiluvchan komponentlar yaratish bo'yicha qo'llanma",
+            "url": "https://inclusive-components.design/"
+          }
+        ]
+      },
+      "screenReaders": {
+        "title": "Ekran o'quvchilari",
+        "items": [
+          {
+            "title": "NVDA",
+            "description": "Windows uchun bepul ekran o'quvchisi",
+            "url": "https://www.nvaccess.org/"
+          },
+          {
+            "title": "VoiceOver",
+            "description": "Apple qurilmalari uchun o'rnatilgan ekran o'quvchisi",
+            "url": "https://www.apple.com/accessibility/vision/"
+          },
+          {
+            "title": "JAWS",
+            "description": "Professional darajadagi ekran o'quvchisi (Windows)",
+            "url": "https://www.freedomscientific.com/products/software/jaws/"
+          },
+          {
+            "title": "TalkBack",
+            "description": "Android qurilmalari uchun ekran o'quvchisi",
+            "url": "https://support.google.com/accessibility/android/answer/6283677"
+          }
+        ]
+      }
+    }
+  },
+  "blog": {
+    "hero": {
+      "title": "Blog",
+      "subtitle": "Raqamli erishiluvchanlik bo'yicha eng so'nggi yangiliklar va maqolalar"
+    },
+    "posts": [
+      {
+        "id": "1",
+        "title": "WCAG 2.2 — yangi mezonlar va o'zgarishlar",
+        "excerpt": "WCAG 2.2 standarti qanday yangi mezonlarni kiritdi va bu veb-ishlab chiquvchilarga qanday ta'sir qiladi? Ushbu maqolada batafsil ko'rib chiqamiz.",
+        "date": "2024-12-15",
+        "author": "WCAG.uz jamoasi",
+        "tags": ["WCAG", "Standartlar", "Yangiliklar"]
+      },
+      {
+        "id": "2",
+        "title": "O'zbekistonda raqamli erishiluvchanlik holati",
+        "excerpt": "O'zbekistondagi veb-saytlarning erishiluvchanlik darajasi qanday? Biz 100 ta mashhur O'zbek veb-saytini tahlil qildik.",
+        "date": "2024-11-20",
+        "author": "WCAG.uz jamoasi",
+        "tags": ["Tadqiqot", "O'zbekiston", "Tahlil"]
+      },
+      {
+        "id": "3",
+        "title": "Erishiluvchan ranglar palitrasini qanday tanlash mumkin",
+        "excerpt": "Rang kontrastining ahamiyati va WCAG standartlariga mos ranglar palitrasini yaratish bo'yicha amaliy maslahatlar.",
+        "date": "2024-10-05",
+        "author": "WCAG.uz jamoasi",
+        "tags": ["Dizayn", "Ranglar", "Kontrast"]
+      },
+      {
+        "id": "4",
+        "title": "React ilovalarida erishiluvchanlik",
+        "excerpt": "React da erishiluvchan komponentlar yaratish, fokus boshqaruvi va ARIA atributlarini to'g'ri ishlatish bo'yicha to'liq qo'llanma.",
+        "date": "2024-09-18",
+        "author": "WCAG.uz jamoasi",
+        "tags": ["React", "Dasturlash", "ARIA"]
+      },
+      {
+        "id": "5",
+        "title": "Klaviatura navigatsiyasi — to'liq qo'llanma",
+        "excerpt": "Foydalanuvchilar veb-saytingizni faqat klaviatura yordamida qanday boshqarishi haqida va buni qanday yaxshilash mumkinligi.",
+        "date": "2024-08-22",
+        "author": "WCAG.uz jamoasi",
+        "tags": ["Klaviatura", "Navigatsiya", "UX"]
+      }
+    ],
+    "readMore": "Davomini o'qish",
+    "tags": "Teglar",
+    "by": "Muallif"
+  },
+  "contact": {
+    "hero": {
+      "title": "Aloqa",
+      "subtitle": "Savollaringiz bormi? Biz bilan bog'laning!"
+    },
+    "form": {
+      "name": "Ismingiz",
+      "namePlaceholder": "To'liq ismingizni kiriting",
+      "email": "Elektron pochta",
+      "emailPlaceholder": "email@misol.uz",
+      "subject": "Mavzu",
+      "subjectPlaceholder": "Xabar mavzusini kiriting",
+      "message": "Xabar",
+      "messagePlaceholder": "Xabaringizni yozing...",
+      "submit": "Yuborish",
+      "required": "Majburiy maydon",
+      "success": "Xabaringiz muvaffaqiyatli yuborildi! Tez orada javob beramiz.",
+      "error": "Xatolik yuz berdi. Iltimos, qaytadan urinib ko'ring."
+    },
+    "info": {
+      "title": "Bog'lanish ma'lumotlari",
+      "email": "info@wcag.uz",
+      "description": "Raqamli erishiluvchanlik bo'yicha savollaringiz, takliflaringiz yoki hamkorlik takliflaringiz bo'lsa, biz bilan bog'laning. Biz har bir xabarga javob beramiz."
+    }
+  },
+  "wcagGuide": {
+    "hero": {
+      "title": "WCAG yo'riqnomasi",
+      "subtitle": "Web kontent erishiluvchanligi bo'yicha yo'riqnomalar — o'zbek tilidagi tarjima"
+    },
+    "intro": "Ushbu sahifada WCAG (Web Content Accessibility Guidelines) standartlarining o'zbek tilidagi tarjimasi keltirilgan. Bu yo'riqnoma veb-saytlar va raqamli mahsulotlarni barcha foydalanuvchilar uchun qulay qilish bo'yicha xalqaro standartlarni o'z ichiga oladi.",
+    "comingSoon": "Tarjima tayyorlanmoqda",
+    "comingSoonDescription": "WCAG 2.2 standartining to'liq o'zbek tilidagi tarjimasi tez orada ushbu sahifada e'lon qilinadi. Hozircha quyidagi manbalarga murojaat qilishingiz mumkin:",
+    "officialLink": "WCAG 2.2 rasmiy hujjati (ingliz tilida)",
+    "quickReference": "WCAG qisqacha ma'lumotnoma",
+    "backToHome": "Bosh sahifaga qaytish"
+  },
+  "footer": {
+    "description": "O'zbekistonda raqamli erishiluvchanlik bo'yicha birinchi resurs. Biz veb va raqamli mahsulotlarni barcha uchun qulay qilish ustida ishlaymiz.",
+    "links": "Foydali havolalar",
+    "social": "Ijtimoiy tarmoqlar",
+    "copyright": "Barcha huquqlar himoyalangan."
+  }
+}
