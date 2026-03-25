@@ -1,13 +1,13 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { Menu, X, Sun, Moon, Globe } from 'lucide-react';
-import { useTheme } from '../hooks/useTheme';
+import { Menu, X, Globe, Eye } from 'lucide-react';
+import AccessibilityWidget from './AccessibilityWidget';
 
 export default function Header() {
   const { t, i18n } = useTranslation();
-  const { theme, toggleTheme } = useTheme();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [a11yPanelOpen, setA11yPanelOpen] = useState(false);
   const location = useLocation();
 
   const navLinks = [
@@ -85,17 +85,13 @@ export default function Header() {
                 <span>{i18n.language === 'uz' ? 'РУ' : 'UZ'}</span>
               </button>
 
-              {/* Theme Toggle */}
+              {/* Accessibility Panel Toggle */}
               <button
-                onClick={toggleTheme}
+                onClick={() => setA11yPanelOpen(true)}
                 className="inline-flex items-center justify-center w-10 h-10 rounded-md text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 dark:focus-visible:ring-offset-gray-900"
-                aria-label={theme === 'light' ? t('theme.dark') : t('theme.light')}
+                aria-label={t('a11yPanel.open')}
               >
-                {theme === 'light' ? (
-                  <Moon className="w-5 h-5" aria-hidden="true" />
-                ) : (
-                  <Sun className="w-5 h-5" aria-hidden="true" />
-                )}
+                <Eye className="w-5 h-5" aria-hidden="true" />
               </button>
 
               {/* Mobile Menu Button */}
@@ -142,6 +138,7 @@ export default function Header() {
           )}
         </div>
       </header>
+      <AccessibilityWidget open={a11yPanelOpen} onOpenChange={setA11yPanelOpen} />
     </>
   );
 }

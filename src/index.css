@@ -30,3 +30,79 @@
     @apply sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-50 focus:bg-blue-700 focus:text-white focus:px-4 focus:py-2 focus:rounded-md focus:text-sm focus:font-semibold;
   }
 }
+
+/* Accessibility: Panel open - prevent scroll */
+body.panel-open {
+  position: fixed;
+  width: 100%;
+  overflow-y: scroll;
+}
+
+/* Accessibility: Grayscale mode */
+html.grayscale-mode {
+  filter: grayscale(100%);
+}
+html.grayscale-mode #accessibility-panel-container {
+  filter: grayscale(0%) !important;
+}
+
+/* Accessibility: High contrast mode */
+html.high-contrast {
+  filter: contrast(1.5);
+}
+html.high-contrast #accessibility-panel-container {
+  filter: contrast(1) !important;
+}
+
+/* Accessibility: Large text mode */
+html.large-text body {
+  font-size: 1.25em;
+}
+
+/* Accessibility: Reduced motion */
+html.reduce-motion *,
+html.reduce-motion *::before,
+html.reduce-motion *::after {
+  animation-duration: 0.01ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.01ms !important;
+  scroll-behavior: auto !important;
+}
+
+/* Accessibility: Line height and letter spacing custom properties */
+html {
+  --line-height-multiplier: 1;
+  --letter-spacing-multiplier: 0em;
+}
+body p, body li, body td, body th, body span, body a, body label, body div {
+  line-height: calc(1.5 * var(--line-height-multiplier));
+  letter-spacing: var(--letter-spacing-multiplier);
+}
+
+/* Accessibility: Text magnifier cursor hint */
+html.text-magnifier-enabled *:not(#accessibility-panel-container *) {
+  cursor: default;
+}
+
+/* Accessibility slider styling */
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #2563eb;
+  cursor: pointer;
+  border: 2px solid #fff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+}
+input[type="range"]::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #2563eb;
+  cursor: pointer;
+  border: 2px solid #fff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+}
+
