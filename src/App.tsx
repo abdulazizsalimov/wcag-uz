@@ -11,6 +11,14 @@ import Resources from './pages/Resources';
 import Blog from './pages/Blog';
 import Contact from './pages/Contact';
 import WcagGuide from './pages/WcagGuide';
+import AdminLogin from './admin/AdminLogin';
+import AdminDashboard from './admin/AdminDashboard';
+import HeaderEditor from './admin/HeaderEditor';
+import MenuEditor from './admin/MenuEditor';
+import FooterEditor from './admin/FooterEditor';
+import PagesList from './admin/PagesList';
+import PageEditor from './admin/PageEditor';
+import DynamicPage from './admin/DynamicPage';
 import './App.css';
 
 function ScrollToTop() {
@@ -41,6 +49,7 @@ function AppContent() {
           <Route path="/blog" element={<Blog />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/wcag-guide" element={<WcagGuide />} />
+          <Route path="/page/:slug" element={<DynamicPage />} />
         </Routes>
       </main>
       <Footer />
@@ -52,7 +61,18 @@ export default function App() {
   return (
     <BrowserRouter>
       <ScrollToTop />
-      <AppContent />
+      <Routes>
+        {/* Admin routes - no header/footer */}
+        <Route path="/admin" element={<AdminLogin />} />
+        <Route path="/admin/dashboard" element={<AdminDashboard />} />
+        <Route path="/admin/header" element={<HeaderEditor />} />
+        <Route path="/admin/menu" element={<MenuEditor />} />
+        <Route path="/admin/footer" element={<FooterEditor />} />
+        <Route path="/admin/pages" element={<PagesList />} />
+        <Route path="/admin/pages/:id" element={<PageEditor />} />
+        {/* Public routes */}
+        <Route path="/*" element={<AppContent />} />
+      </Routes>
     </BrowserRouter>
   );
 }
